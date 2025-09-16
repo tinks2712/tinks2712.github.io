@@ -31,3 +31,6 @@ Hi! I’m a UTMB Research Associate focusing on **bioinformatics, molecular prof
 - **Email:** brahmbhattdhruti07@gmail.com  
 - **LinkedIn:** https://www.linkedin.com/ (add your profile)  
 - **GitHub:** https://github.com/tinks2712
+
+[📄 Download My Resume](assets/Resume_Dhruti_Brahmbhatt.pdf)
+
