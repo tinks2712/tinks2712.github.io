@@ -1,43 +1,25 @@
 <link rel="stylesheet" href="/assets/css/site.css">
 
-<!-- Hide the big default theme header -->
-<style>.page-header{display:none!important;}</style>
+# Dhruti Brahmbhatt
+**Bioinformatics · Clinical Informatics · Molecular Profiling**
 
-<div class="navbar">
-  <div class="inner">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/projects">Projects</a>
-    <a href="/certificates">Certificates</a>
-    <a href="/assets/Resume_Dhruti_Brahmbhatt.pdf">Resume</a>
-  </div>
+<div class="nav-links">
+  <a href="/about">About</a>
+  <a href="/projects">Projects</a>
+  <a href="/certificates">Certificates</a>
+  <a href="/assets/Resume_Dhruti_Brahmbhatt.pdf">Resume</a>
 </div>
 
-<div class="hero">
-  <div class="content">
-    <h1>Dhruti Brahmbhatt</h1>
-    <p>Associate Researcher · Bioinformatics · Clinical Informatics<br>
-       Translating complex biological data into actionable scientific insights</p>
-    <a class="btn" href="/assets/Resume_Dhruti_Brahmbhatt.pdf">📄 Download Resume</a>
-  </div>
-</div>
+I am a **Research Associate at the University of Texas Medical Branch (UTMB)** working at the intersection of **bioinformatics, molecular profiling, and clinical informatics**. I build reproducible analysis pipelines and integrate **single-cell & bulk RNA-seq** with pathway analysis to investigate **kidney fibrosis, immune dysregulation, and oncology**. I partner closely with clinicians and scientists to turn data into decisions.
 
-<!-- IMPORTANT: allow markdown rendering inside this div -->
-<div class="page-wrap" markdown="1">
-
-## Profile
-
-I am a **Research Associate at the University of Texas Medical Branch (UTMB)** working at the intersection of **bioinformatics, molecular profiling, and clinical informatics**. I build reproducible analysis pipelines and integrate **single-cell & bulk RNA-seq** with pathway analysis to investigate **kidney fibrosis, immune dysregulation, and oncology**. I collaborate closely with clinicians and scientists to turn data into decisions.
-
-**Quick links:** [About](/about) · [Projects](/projects) · [Certificates](/certificates) · [Contact](#contact)
+[📄 Download Resume](/assets/Resume_Dhruti_Brahmbhatt.pdf){:.btn}
 
 ---
 
 ## Highlights
-
-- **Omics:** scRNA-seq, bulk RNA-seq, CITE-seq, TCR/BCR-seq; GSEA, DAVID, Reactome, IPA  
-- **Programming:** Python, R, SQL, SAS; workflow automation with Docker/Singularity; HPC (SLURM)  
-- **Visualization:** Tableau, Power BI, GraphPad Prism; clear summaries for clinical audiences  
+- **Omics:** scRNA-seq, bulk RNA-seq, CITE-seq, TCR/BCR-seq; enrichment (GSEA, DAVID, Reactome, IPA)  
+- **Programming:** Python, R, SQL, SAS; workflow automation (Docker/Singularity); HPC (SLURM)  
+- **Visualization:** Tableau, Power BI, GraphPad Prism; concise reports for clinical stakeholders  
 - **Molecular:** Flow cytometry, qPCR, ELISA, Western blot, IHC, Co-IP  
 - **Governance:** SOP development, data integrity, CLIA/CAP/GxP familiarity
 
@@ -67,24 +49,17 @@ RNA-seq pipeline: QC → alignment (STAR/Kallisto) → differential expression �
 ---
 
 ## Certifications (Quick View)
-
-<div class="cert-strip">
-<a href="/assets/docs/Predictive_Analytics_Detecting_Kidney_Disease_Using_AI_(1).pdf">CKD Predictive Analytics (Azure ML)</a> ·
-<a href="/assets/docs/Azure%20Data%20Scientist%20Associate_%20Machine%20Learning%20Classification%20Models.pdf">Azure DS – Classification</a> ·
-<a href="/assets/docs/All_R_Courses_pdf.pdf">R Modeling Bundle</a> ·
-<a href="/assets/docs/Health_IT_Certificates.pdf">Health IT (Microsoft)</a> ·
-<a href="/assets/docs/Governance,%20Risk%20Management,%20and%20Compliance.pdf">GRC</a> ·
-<a href="/assets/docs/Cybersecurity%20for%20Biotechnology_%20Securing%20Biotech%20Research%20and%20Clinical%20Trials.pdf">Biotech Cybersecurity</a> ·
-<a href="/assets/docs/citi_training_certificates.pdf">CITI Suite</a>
-</div>
+[CKD Predictive Analytics (Azure ML)](/assets/docs/Predictive_Analytics_Detecting_Kidney_Disease_Using_AI_(1).pdf) ·
+[Azure DS – Classification](/assets/docs/Azure%20Data%20Scientist%20Associate_%20Machine%20Learning%20Classification%20Models.pdf) ·
+[R Modeling Bundle](/assets/docs/All_R_Courses_pdf.pdf) ·
+[Health IT (Microsoft)](/assets/docs/Health_IT_Certificates.pdf) ·
+[GRC](/assets/docs/Governance,%20Risk%20Management,%20and%20Compliance.pdf) ·
+[Biotech Cybersecurity](/assets/docs/Cybersecurity%20for%20Biotechnology_%20Securing%20Biotech%20Research%20and%20Clinical%20Trials.pdf) ·
+[CITI Suite](/assets/docs/citi_training_certificates.pdf)
 
 ---
 
 ## Contact
-<span id="contact"></span>
-
 - **Email:** brahmbhattdhruti07@gmail.com  
-- **LinkedIn:** <a href="https://www.linkedin.com/in/dhruti-brahmbhatt-5379931b7/">linkedin.com/in/dhruti-brahmbhatt-5379931b7</a>  
-- **GitHub:** <a href="https://github.com/tinks2712">github.com/tinks2712</a>
-
-</div>
+- **LinkedIn:** <https://www.linkedin.com/in/dhruti-brahmbhatt-5379931b7/>  
+- **GitHub:** <https://github.com/tinks2712>
