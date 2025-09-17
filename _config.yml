@@ -1,22 +1,26 @@
 title: "Dhruti Brahmbhatt"
 description: "Bioinformatics · Clinical Informatics · Molecular Profiling"
 url: "https://tinks2712.github.io"
-baseurl: ""
+baseurl: ""   # do not change for username.github.io sites
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 
+# Plugins supported on GitHub Pages
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-include-cache
 
-# Show your photo + bio on pages that enable author_profile
+# Branding (optional logo shown in header & metadata)
+logo: /assets/img/avatar.jpg
+
+# Author box (shown on pages where you set `author_profile: true`)
 author:
-  name   : "Dhruti Brahmbhatt"
-  avatar : "/assets/img/profile.jpg"   # <-- make sure this file exists
-  bio    : "Research Associate (UTMB). Single-cell & bulk RNA-seq, molecular profiling, and data storytelling."
+  name: "Dhruti Brahmbhatt"
+  avatar: "/assets/img/avatar.jpg"   # <= exact path & filename you uploaded
+  bio: "Research Associate (UTMB). Single-cell & bulk RNA-seq, molecular profiling, and data storytelling."
   links:
     - label: "Email"
       icon: "fas fa-envelope"
@@ -28,7 +32,5 @@ author:
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/dhruti-brahmbhatt-5379931b7/"
 
-# Simple permalink style
+# Simple, clean permalinks
 permalink: /:title/
-
-# Navigation (optional, if you already created _data/navigation.yml you can keep it)
