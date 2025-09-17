@@ -1,40 +1,136 @@
 /* ---------- Professional fonts (Google Fonts) ---------- */
-/* Add the link tag once in your site head (see step 3) */
-body { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; color:#111827; }
-h1,h2,h3 { font-family: "Roboto Slab", Georgia, serif; color:#0b1220; }
+/* These fonts load because you added the <link> in _includes/head/custom.html */
+body {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  color: #111827;
+  line-height: 1.6;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+h1, h2, h3 {
+  font-family: "Roboto Slab", Georgia, serif;
+  color: #0b1220;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+/* Links */
+a {
+  color: #0b3b8f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.button, .btn, a.button {
+  display: inline-block;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+.button:hover, .btn:hover {
+  background: #1e40af;
+  text-decoration: none;
+}
 
 /* ---------- Projects grid/cards ---------- */
-.proj-grid{
-  display:grid; gap:18px;
+.proj-grid {
+  display: grid;
+  gap: 18px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin-top: 10px;
-}
-.proj-card{
-  background:#ffffff;
-  border:1px solid #e5e7eb;
-  border-radius:14px;
-  padding:18px;
-  box-shadow: 0 4px 14px rgba(17,24,39,.04);
-}
-.proj-head{ display:flex; gap:12px; align-items:center; margin-bottom:6px; }
-.proj-head .icon{
-  width:40px; height:40px; border-radius:10px; display:grid; place-items:center;
-  background:#eef2ff; border:1px solid #dbeafe; font-size:20px;
-}
-.proj-card .muted{ color:#6b7280; font-size:.95rem; }
-.proj-card ul{ margin: 8px 0 0 18px; }
-.proj-card li{ margin-bottom:6px; }
-.tags{ display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
-.tags span{
-  font-size:.82rem; color:#0b3b8f; background:#e8f1ff; border:1px solid #cfe3ff;
-  border-radius:999px; padding:4px 10px;
+  margin-top: 20px;
 }
 
-/* High-contrast on dark skins too */
-@media (prefers-color-scheme: dark){
-  body{ color:#e5e7eb; }
-  .proj-card{ background:#0f172a; border-color:#1f2937; }
-  h1,h2,h3{ color:#f3f4f6; }
-  .proj-head .icon{ background:#0b1220; border-color:#1f2240; }
-  .tags span{ color:#cfe1ff; background:#0b1a39; border-color:#1b2c4f; }
+.proj-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 4px 14px rgba(17,24,39,.04);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.proj-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(17,24,39,.1);
+}
+
+.proj-head {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.proj-head .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background: #eef2ff;
+  border: 1px solid #dbeafe;
+  font-size: 20px;
+}
+
+.proj-card .muted {
+  color: #6b7280;
+  font-size: .95rem;
+}
+
+.proj-card ul {
+  margin: 8px 0 0 18px;
+  padding: 0;
+}
+
+.proj-card li {
+  margin-bottom: 6px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.tags span {
+  font-size: .82rem;
+  color: #0b3b8f;
+  background: #e8f1ff;
+  border: 1px solid #cfe3ff;
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
+/* ---------- Dark Mode Support ---------- */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #e5e7eb;
+    background-color: #0f172a;
+  }
+  h1, h2, h3 {
+    color: #f3f4f6;
+  }
+  a {
+    color: #93c5fd;
+  }
+  .proj-card {
+    background: #1e293b;
+    border-color: #334155;
+  }
+  .proj-head .icon {
+    background: #0b1220;
+    border-color: #1f2240;
+  }
+  .tags span {
+    color: #cfe1ff;
+    background: #0b1a39;
+    border-color: #1b2c4f;
+  }
 }
