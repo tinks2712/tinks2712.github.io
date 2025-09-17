@@ -1,3 +1,16 @@
+<link rel="stylesheet" href="/assets/css/site.css">
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/projects">Projects</a>
+    <a href="/certificates">Certificates</a>
+    <a href="/assets/Resume_Dhruti_Brahmbhatt.pdf">Resume</a>
+  </div>
+</nav>
+<div class="page">
+
+
 ---
 title: Projects
 ---
