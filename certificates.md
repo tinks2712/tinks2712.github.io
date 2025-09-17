@@ -20,10 +20,10 @@ A curated list of credentials in **bioinformatics, analytics, cloud/health IT, c
 
 ## Featured
 - **Predictive Analytics: Detecting Kidney Disease Using AI (Azure ML Designer)** – Microsoft/Pluralsight  
-  [View Certificate](/assets/docs/Predictive_Analytics_CKD_using_AI.pdf) :contentReference[oaicite:8]{index=8}
+  [View Certificate](/assets/docs/Predictive_Analytics_Detecting_Kidney_Disease_Using_AI_(1).pdf)
 
 - **Azure Data Scientist Associate – Machine Learning: Classification Models**  
-  [View Certificate](/assets/docs/Azure_DS_Associate_Classification_Models.pdf) :contentReference[oaicite:9]{index=9}
+  [View Certificate](/assets/docs/Azure%20Data%20Scientist%20Associate_%20Machine%20Learning%20Classification%20Models.pdf)
 
 ---
 
@@ -34,13 +34,13 @@ A curated list of credentials in **bioinformatics, analytics, cloud/health IT, c
 - Statistical Analysis & Modeling in R – **Regularized & Ensemble Models**  
 - Statistical Analysis & Modeling in R – **Statistical Analysis on Your Data**  
 - Using R Programming Structures: **Object Systems**  
-  <br/>All above in one PDF: [View Bundle](/assets/docs/R_Modeling_All_Courses.pdf) :contentReference[oaicite:10]{index=10}
+  <br/>All above in one PDF: [View Bundle](/assets/docs/All_R_Courses_pdf.pdf)
 
 ---
 
 ## Programming
 - **Python Certificate** – Core programming competency  
-  [View Certificate](/assets/docs/Python_Certificate.pdf) :contentReference[oaicite:11]{index=11}
+  [View Certificate](/assets/docs/Python_Certificate.pdf)
 
 ---
 
@@ -49,20 +49,16 @@ A curated list of credentials in **bioinformatics, analytics, cloud/health IT, c
 - **Introduction to Azure Health Data Services**  
 - **Home Health in Microsoft Cloud for Healthcare**  
 - **Digital Transformation in Healthcare**  
-  <br/>Consolidated: [View Health IT Certificates](/assets/docs/Health_IT_Certificates.pdf) :contentReference[oaicite:12]{index=12}
+  <br/>Consolidated: [View Health IT Certificates](/assets/docs/Health_IT_Certificates.pdf)
 
 ---
 
 ## Cybersecurity & GRC
 - **Governance, Risk Management, and Compliance (GRC)**  
-  [View Certificate](/assets/docs/Governance_Risk_Compliance.pdf) :contentReference[oaicite:13]{index=13}
+  [View Certificate](/assets/docs/Governance,%20Risk%20Management,%20and%20Compliance.pdf)
 
 - **Cybersecurity for Biotechnology: Securing Biotech Research & Clinical Trials**  
-  [View Certificate](/assets/docs/Cybersecurity_for_Biotech.pdf) :contentReference[oaicite:14]{index=14}
-
-- **Cybersecurity for Healthcare: Protecting Medical Devices & Health Information**  
-  **(+ additional items: Microsoft achievements extracts)**  
-  [View Health IT/Cyber Bundle](/assets/docs/Health_IT_Certificates.pdf) :contentReference[oaicite:15]{index=15}
+  [View Certificate](/assets/docs/Cybersecurity%20for%20Biotechnology_%20Securing%20Biotech%20Research%20and%20Clinical%20Trials.pdf)
 
 ---
 
@@ -74,14 +70,7 @@ A curated list of credentials in **bioinformatics, analytics, cloud/health IT, c
 - **General Biological Laboratory – Basic**  
 - **General Laboratory Safety Training (2025)**  
 - **Animal Care & Use – Animal Technicians**  
-  <br/>Collected certificates (multiple PDFs):  
-  - [Rats – Certificate](/assets/docs/CITI_Working_with_Rats.pdf)  
-  - [Mice – Certificate](/assets/docs/CITI_Working_with_Mice.pdf)  
-  - [Hazardous Biological Materials – Certificate](/assets/docs/CITI_Hazardous_Bio_Materials.pdf)  
-  - [General Lab Safety (2025) – Certificate](/assets/docs/CITI_General_Lab_Safety_2025.pdf)  
-  - [General Biological Lab – Certificate](/assets/docs/CITI_General_Bio_Lab.pdf)  
-  - [Biomedical RCR – Certificate](/assets/docs/CITI_Biomedical_RCR.pdf)  
-  - [Animal Technicians – Certificate](/assets/docs/CITI_Animal_Technicians.pdf) :contentReference[oaicite:16]{index=16}
+  <br/>All above collected in one file: [View Certificates](/assets/docs/citi_training_certificates.pdf)
 
 ---
 
