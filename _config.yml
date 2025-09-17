@@ -1,3 +1,55 @@
 title: "Dhruti Brahmbhatt"
 description: "Bioinformatics · Clinical Informatics · Molecular Profiling"
-theme: jekyll-theme-cayman
+url: "https://tinks2712.github.io"
+baseurl: ""
+logo: /assets/img/avatar.png   # optional headshot (upload later)
+
+# Minimal Mistakes config
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Skin (built-in color schemes): default, dark, air, mint, neon, sunrise…
+minimal_mistakes_skin: "dark"    # try "neon" or "default" too
+
+# Site-wide navigation (comes from _data/navigation.yml)
+include:
+  - _pages
+  - _projects
+  - _posts
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      share: false
+      comments: false
+
+# Author/profile box (optional)
+author:
+  name: "Dhruti Brahmbhatt"
+  avatar: "/assets/img/avatar.png"  # upload a square headshot
+  bio: "Research Associate (UTMB). Single-cell + bulk RNA-seq, molecular profiling, and data storytelling."
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:brahmbhattdhruti07@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/tinks2712"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/dhruti-brahmbhatt-5379931b7/"
+
+permalink: /:categories/:title/
