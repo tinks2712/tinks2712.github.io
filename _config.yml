@@ -8,7 +8,11 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 
 logo: /assets/img/profile.jpg
-
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-include-cache
+  
 author:
   name: "Dhruti Brahmbhatt"
   avatar: "/assets/img/profile.jpg"
