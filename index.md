@@ -1,3 +1,11 @@
+---
+layout: single
+title: "Dhruti Brahmbhatt"
+author_profile: true
+---
+
+
+
 <link rel="stylesheet" href="/assets/css/site.css">
 
 # Dhruti Brahmbhatt
