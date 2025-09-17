@@ -5,19 +5,6 @@ author_profile: true
 ---
 
 
-
-<link rel="stylesheet" href="/assets/css/site.css">
-
-# Dhruti Brahmbhatt
-**Bioinformatics · Clinical Informatics · Molecular Profiling**
-
-<div class="nav-links">
-  <a href="/about">About</a>
-  <a href="/projects">Projects</a>
-  <a href="/certificates">Certificates</a>
-  <a href="/assets/Resume_Dhruti_Brahmbhatt.pdf">Resume</a>
-</div>
-
 I am a **Research Associate at the University of Texas Medical Branch (UTMB)** working at the intersection of **bioinformatics, molecular profiling, and clinical informatics**. I build reproducible analysis pipelines and integrate **single-cell & bulk RNA-seq** with pathway analysis to investigate **kidney fibrosis, immune dysregulation, and oncology**. I partner closely with clinicians and scientists to turn data into decisions.
 
 [📄 Download Resume](/assets/Resume_Dhruti_Brahmbhatt.pdf){:.btn}
