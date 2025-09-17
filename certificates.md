@@ -1,16 +1,5 @@
 <link rel="stylesheet" href="/assets/css/site.css">
 
-<div class="navbar">
-  <div class="inner">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/projects">Projects</a>
-    <a href="/certificates">Certificates</a>
-    <a href="/assets/Resume_Dhruti_Brahmbhatt.pdf">Resume</a>
-  </div>
-</div>
-
-<div class="page-wrap" markdown="1">
 
 
 # Certificates & Training
