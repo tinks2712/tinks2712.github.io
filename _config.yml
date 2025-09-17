@@ -3,20 +3,20 @@ description: "Bioinformatics · Clinical Informatics · Molecular Profiling"
 url: "https://tinks2712.github.io"
 baseurl: ""
 
-# Minimal Mistakes theme
+# Theme
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 
-logo: /assets/img/profile.jpg
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-include-cache
-  
+
+# Show your photo + bio on pages that enable author_profile
 author:
-  name: "Dhruti Brahmbhatt"
-  avatar: "/assets/img/profile.jpg"
-  bio: "Research Associate (UTMB). Single-cell + bulk RNA-seq, molecular profiling, and data storytelling."
+  name   : "Dhruti Brahmbhatt"
+  avatar : "/assets/img/profile.jpg"   # <-- make sure this file exists
+  bio    : "Research Associate (UTMB). Single-cell & bulk RNA-seq, molecular profiling, and data storytelling."
   links:
     - label: "Email"
       icon: "fas fa-envelope"
@@ -27,3 +27,8 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/dhruti-brahmbhatt-5379931b7/"
+
+# Simple permalink style
+permalink: /:title/
+
+# Navigation (optional, if you already created _data/navigation.yml you can keep it)
