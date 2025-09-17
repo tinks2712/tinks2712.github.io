@@ -1,65 +1,40 @@
-/* -------- Professional, readable overrides for Cayman -------- */
-:root{
-  --text:#0f172a;         /* very dark slate */
-  --muted:#475569;        /* slate */
-  --link:#0b5fff;         /* accessible blue */
-  --accent:#0b5fff;
-  --bg:#ffffff;           /* white background */
-  --card:#f8fafc;         /* light panel */
-  --border:#e5e7eb;       /* light gray border */
+/* ---------- Professional fonts (Google Fonts) ---------- */
+/* Add the link tag once in your site head (see step 3) */
+body { font-family: "Inter", "Helvetica Neue", Arial, sans-serif; color:#111827; }
+h1,h2,h3 { font-family: "Roboto Slab", Georgia, serif; color:#0b1220; }
+
+/* ---------- Projects grid/cards ---------- */
+.proj-grid{
+  display:grid; gap:18px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 10px;
+}
+.proj-card{
+  background:#ffffff;
+  border:1px solid #e5e7eb;
+  border-radius:14px;
+  padding:18px;
+  box-shadow: 0 4px 14px rgba(17,24,39,.04);
+}
+.proj-head{ display:flex; gap:12px; align-items:center; margin-bottom:6px; }
+.proj-head .icon{
+  width:40px; height:40px; border-radius:10px; display:grid; place-items:center;
+  background:#eef2ff; border:1px solid #dbeafe; font-size:20px;
+}
+.proj-card .muted{ color:#6b7280; font-size:.95rem; }
+.proj-card ul{ margin: 8px 0 0 18px; }
+.proj-card li{ margin-bottom:6px; }
+.tags{ display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+.tags span{
+  font-size:.82rem; color:#0b3b8f; background:#e8f1ff; border:1px solid #cfe3ff;
+  border-radius:999px; padding:4px 10px;
 }
 
-/* Base typography & layout */
-html { scroll-behavior: smooth; }
-body {
-  background: var(--bg);
-  color: var(--text);
-  font-size: 18px;
-  line-height: 1.75;
-}
-
-/* Constrain width of main content */
-.page-content .wrapper {
-  max-width: 920px;
-}
-
-/* Improve headings contrast */
-h1, h2, h3 { color: var(--text); font-weight: 700; }
-
-/* Links */
-a { color: var(--link); }
-a:hover { text-decoration: underline; }
-
-/* Callout buttons */
-.btn {
-  display: inline-block;
-  padding: 10px 16px;
-  border-radius: 10px;
-  background: var(--accent);
-  color: #fff !important;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-/* Subtle card grid (for projects, certs) */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
-  gap: 16px;
-}
-.card {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  padding: 16px;
-}
-
-/* Small, quiet text */
-.muted { color: var(--muted); }
-
-/* Optional: slim top nav links row */
-.nav-links {
-  display: flex; gap: 14px; flex-wrap: wrap;
-  margin: 10px 0 22px;
-  font-weight: 600;
+/* High-contrast on dark skins too */
+@media (prefers-color-scheme: dark){
+  body{ color:#e5e7eb; }
+  .proj-card{ background:#0f172a; border-color:#1f2937; }
+  h1,h2,h3{ color:#f3f4f6; }
+  .proj-head .icon{ background:#0b1220; border-color:#1f2240; }
+  .tags span{ color:#cfe1ff; background:#0b1a39; border-color:#1b2c4f; }
 }
