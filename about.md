@@ -1,4 +1,6 @@
-<link rel="stylesheet" href="/assets/css/site.css">
+---
+title: About
+---
 
 # About Me
 
@@ -21,7 +23,7 @@ By bridging **wet-lab experimentation** and **computational biology**, I design 
 
 - **Data Visualization & Analytics**  
   Tableau, Power BI, GraphPad Prism  
-  Reproducible data storytelling for both research and clinical audiences  
+  Reproducible data storytelling for research + clinical audiences  
 
 - **Molecular Biology**  
   Flow cytometry, qPCR, Western blot, ELISA, IHC, Co-IP  
