@@ -2,7 +2,8 @@ title: "Dhruti Brahmbhatt"
 description: "Bioinformatics · Clinical Informatics · Molecular Profiling"
 url: "https://tinks2712.github.io"
 baseurl: ""
-logo: /assets/img/avatar.png   # optional headshot (upload later)
+logo: /assets/img/profile.jpg
+   
 
 # Minimal Mistakes config
 remote_theme: "mmistakes/minimal-mistakes"
@@ -39,7 +40,7 @@ defaults:
 # Author/profile box (optional)
 author:
   name: "Dhruti Brahmbhatt"
-  avatar: "/assets/img/avatar.png"  # upload a square headshot
+  avatar: /assets/img/profile.jpg  # upload a square headshot
   bio: "Research Associate (UTMB). Single-cell + bulk RNA-seq, molecular profiling, and data storytelling."
   links:
     - label: "Email"
