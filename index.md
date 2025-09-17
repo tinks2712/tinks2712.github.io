@@ -1,5 +1,8 @@
 <link rel="stylesheet" href="/assets/css/site.css">
 
+<!-- Hide the big default theme header -->
+<style>.page-header{display:none!important;}</style>
+
 <div class="navbar">
   <div class="inner">
     <a href="/">Home</a>
@@ -19,19 +22,14 @@
   </div>
 </div>
 
-<div class="page-wrap">
+<!-- IMPORTANT: allow markdown rendering inside this div -->
+<div class="page-wrap" markdown="1">
 
 ## Profile
 
 I am a **Research Associate at the University of Texas Medical Branch (UTMB)** working at the intersection of **bioinformatics, molecular profiling, and clinical informatics**. I build reproducible analysis pipelines and integrate **single-cell & bulk RNA-seq** with pathway analysis to investigate **kidney fibrosis, immune dysregulation, and oncology**. I collaborate closely with clinicians and scientists to turn data into decisions.
 
-<div class="quick-links">
-  <strong>Quick links:</strong>
-  <a href="/about">About</a>
-  <a href="/projects">Projects</a>
-  <a href="/certificates">Certificates</a>
-  <a href="#contact">Contact</a>
-</div>
+**Quick links:** [About](/about) · [Projects](/projects) · [Certificates](/certificates) · [Contact](#contact)
 
 ---
 
@@ -50,18 +48,18 @@ I am a **Research Associate at the University of Texas Medical Branch (UTMB)** w
 <div class="grid">
 
 <div class="card">
-<strong>Kidney Fibrosis Transcriptomics</strong>
-<br>Integrated **single-cell + bulk RNA-seq** to map immune and fibrotic programs in CKD. Reproducible pipelines with enrichment analysis; collaborated with nephrologists on biomarker hypotheses.
+<strong>Kidney Fibrosis Transcriptomics</strong><br>
+Integrated **single-cell + bulk RNA-seq** to map immune and fibrotic programs in CKD. Reproducible pipelines with enrichment analysis; collaborated with nephrologists on biomarker hypotheses.
 </div>
 
 <div class="card">
-<strong>COVID-19 Genome Analytics</strong>
-<br>Analyzed **1,000+ genomes** to identify mutation hotspots relevant to vaccines/therapeutics; built comparative genomic summaries and visualizations.
+<strong>COVID-19 Genome Analytics</strong><br>
+Analyzed **1,000+ genomes** to identify mutation hotspots relevant to vaccines/therapeutics; built comparative genomic summaries and visualizations.
 </div>
 
 <div class="card">
-<strong>NGS in Cancer Cell Lines (K562 & MCF-7)</strong>
-<br>RNA-seq pipeline: QC → alignment (STAR/Kallisto) → differential expression → enrichment; highlighted oncogenic pathways and candidate targets.
+<strong>NGS in Cancer Cell Lines (K562 & MCF-7)</strong><br>
+RNA-seq pipeline: QC → alignment (STAR/Kallisto) → differential expression → enrichment; highlighted oncogenic pathways and candidate targets.
 </div>
 
 </div>
