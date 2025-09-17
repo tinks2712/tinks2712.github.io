@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Certificates"
+    url: /certificates/
+  - title: "Resume"
+    url: /assets/Resume_Dhruti_Brahmbhatt.pdf
