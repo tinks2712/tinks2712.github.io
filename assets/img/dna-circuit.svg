@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09121a"/>
+      <stop offset="100%" stop-color="#0d1520"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <!-- subtle grid -->
+  <g stroke="#122232" stroke-width="1">
+    <path d="M0 60 H1600M0 120 H1600M0 180 H1600M0 240 H1600M0 300 H1600M0 360 H1600M0 420 H1600M0 480 H1600M0 540 H1600M0 600 H1600M0 660 H1600M0 720 H1600M0 780 H1600"/>
+    <path d="M80 0 V900M160 0 V900M240 0 V900M320 0 V900M400 0 V900M480 0 V900M560 0 V900M640 0 V900M720 0 V900M800 0 V900M880 0 V900M960 0 V900M1040 0 V900M1120 0 V900M1200 0 V900M1280 0 V900M1360 0 V900M1440 0 V900M1520 0 V900"/>
+  </g>
+  <!-- DNA double helix -->
+  <g stroke="#64d2ff" stroke-width="3" fill="none" filter="url(#glow)" opacity="0.7">
+    <path d="M320,120 C520,200 520,360 320,440 S120,680 320,760" />
+    <path d="M480,120 C680,200 680,360 480,440 S280,680 480,760" />
+    <path d="M640,120 C840,200 840,360 640,440 S440,680 640,760" />
+  </g>
+  <!-- circuit traces -->
+  <g stroke="#b084ff" stroke-width="2" opacity="0.55" filter="url(#glow)">
+    <path d="M1100,120 h220 v80 h-120 v120 h-160"/>
+    <circle cx="1100" cy="120" r="3" fill="#b084ff"/>
+    <circle cx="1220" cy="200" r="3" fill="#b084ff"/>
+    <circle cx="1040" cy="320" r="3" fill="#b084ff"/>
+  </g>
+</svg>
